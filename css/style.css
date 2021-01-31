@@ -1,0 +1,257 @@
+
+.box {
+	position: relative;
+	object-fit: cover;
+	width: 100%;
+}
+.box-wraper {
+	width: 100%;
+	position: absolute;
+}
+.box-wraper2 {
+	position: absolute;
+	width: 200px;
+	top: 100px;
+	right: 0;
+	display: block;
+	background-repeat: repeat-x;
+	transform: translate(-50%;-50%) rotate(180deg);
+	animation: first-fishs 8s linear infinite;
+
+}
+.box-wraper3 {
+	position: absolute;
+	width: 200px;
+	top: 250px;
+	right: 0;
+	display: block;
+	background-repeat: repeat-x;
+	transform: translate(-50%;-50%) rotate(180deg);
+	animation: first-fishs 6s linear infinite;
+
+}
+.box-wraper4 {
+	position: absolute;
+	width: 200px;
+	top: 500px;
+	right: 0;
+	display: block;
+	background-repeat: repeat-x;
+	transform: translate(-50%;-50%) rotate(180deg);
+	animation: first-fishs 7s linear infinite;
+}
+
+
+.bubble {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 100px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble2 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 400px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble3 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 650px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble4 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 900px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble5 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 1150px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble6 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 950px;
+	right: 1400px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble7 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 600px;
+	right: 1250px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble8 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 600px;
+	right: 1050px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble9 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 600px;
+	right: 800px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble10 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 600px;
+	right: 550px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble11 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 600px;
+	right: 250px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble12 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 100px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble13 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 400px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble14 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 650px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble15 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 950px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble16 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 1150px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble17 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 300px;
+	right: 1400px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble18 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 1250px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble19 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 1050px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble20 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 800px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble21 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 550px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble22 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 250px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble23 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 100px;
+	animation: bubbles 10s linear infinite;
+}
+.bubble24 {
+	position: absolute;
+	width: 50px;
+	opacity: 0.5;
+	top: 100px;
+	right: 1450px;
+	animation: bubbles 10s linear infinite;
+}
+
+@keyframes first-fish {
+	100% {transform: translateX(-1500px) rotateY(50deg);}
+}
+@keyframes first-fishs {
+	0% {transform: translateX(-100px) rotateY(40deg);}
+	15%{transform: translateX(-400px) rotateY(-40deg);}
+	30% {transform: translateX(-700px) rotateY(40deg);}
+	45%{transform: translateX(-1000px) rotateY(-40deg);}
+	60% {transform: translateX(-1300px) rotateY(40deg);}
+	75% {transform: translateX(-1000px) rotateY(180deg);}
+	85%{transform: translateX(-700px) rotateY(220deg);}
+	95% {transform: translateX(-400px) rotateY(180deg);}
+	100%{transform: translateX(-100px) rotateY(220deg);}
+
+
+}
+@keyframes bubbles {
+	100%   { transform: translateY(-1500%); }
+}
+
